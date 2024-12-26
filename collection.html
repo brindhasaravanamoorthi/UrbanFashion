@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanFashion</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- My Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>UrbanFashion</h1>
+        <div class="navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Side Navbar -->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <!--product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-class"></i>
+        </form>
+        <div class="products" id="products">
+            <div class="products-box">
+                <img src="https://media.istockphoto.com/id/2150388832/photo/smiling-young-woman-enjoys-summer-music-festival-on-beach-dancing-among-crowd-hand-up-with.webp?a=1&b=1&s=612x612&w=0&k=20&c=2XbQILm0CRTS9ZEeibaFEv1i_nX7NGpTZQpJIvy6l08="
+                    alt="" style="width:300px; height:auto;border-radius: 8px;">
+                <p>White Top</p>
+            </div>
+            <div class="products-box">
+                <img src="https://media.istockphoto.com/id/1201024669/photo/handsome-man-in-casual-clothing.jpg?s=612x612&w=0&k=20&c=TexR7OTm-QRZCtkDecnSVgihtLMbG9WynadACrEiMf0="
+                    alt="" style="width:300px; height:auto;border-radius: 8px;">
+                <p>White shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="https://media.istockphoto.com/id/1397185406/photo/portrait-of-woman-smiling-against-wall-with-palm-tree-shade.jpg?s=612x612&w=0&k=20&c=QnX-8KeN5NXpA00iDOHJ6usI0h8h69fbCmos2XRG78k="
+                    alt="" style="width:300px; height:auto;border-radius: 8px;">
+                <p>Yellow Dress</p>
+            </div>
+            <div class="products-box">
+                <img src="https://media.istockphoto.com/id/621975996/photo/beautiful-woman-in-the-city.jpg?s=612x612&w=0&k=20&c=d1owNOvDTvJyHLIME31vFmvqmPOqownpXTY-zFsj7NY="
+                    alt="" style="width:300px; height:auto;border-radius: 8px;">
+                <p>Grey Dress</p>
+            </div>
+            <div class="products-box">
+                <img src="https://media.istockphoto.com/id/1279351342/photo/outdoor-close-up-portrait-of-young-beautiful-woman-posing-on-street-of-asian-city-looking-at.jpg?s=612x612&w=0&k=20&c=OG-OAx1RBRdci2PJKo9vbCEJ2eovJ5axqTqHin8jnnc="
+                    alt="" style="width:300px; height:auto;border-radius: 8px;">
+                <p>Red Dress</p>
+            </div>
+            <div class="products-box">
+                <img src="https://media.istockphoto.com/id/1152780488/photo/spa-wellness-beach-beauty-woman-relaxing-and-sun-bathing-on-beach-beautiful-serene-and.jpg?s=612x612&w=0&k=20&c=KMDSACAKmodgZ-2trdlNHVVqUmbSRhSNlR3cCl4I4vw="
+                    alt="" style="width:300px; height:auto;border-radius: 8px;">
+                <p>White T-shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="https://media.istockphoto.com/id/2012145646/photo/portrait-of-young-businesswoman-wear-trendy-smart-casual-outfit-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=0g_e3IM0R5bA4iBmfv1PIjzDvdYAPLC9sEOC3anBosg="
+                    alt="" style="width:300px; height:auto;border-radius: 8px;">
+                <p>Pink dress</p>
+            </div>
+            <div class="products-box">
+                <img src="https://media.istockphoto.com/id/852897388/photo/fierce-and-faboulous.jpg?s=612x612&w=0&k=20&c=UM056CgLXtT9iHIapgMht8ChKKV6L_hpzp0n7YgSnzQ="
+                    alt="" style="width:300px; height:auto;border-radius: 8px;">
+                <p>Black Dress</p>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingtext">UrbanTide</h2>
+                <p>UrbanTide is perfect for a brand that wants to appeal to a trendy, young audience with an
+                    interest in
+                    streetwear or contemporary, stylish fashion.</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2024UrbanTide.com</p>
+    </div>
+
+
+
+    <!-- JavaScript -->
+    <script src="collection.js"></script>
+
+</body>
+
+</html>
